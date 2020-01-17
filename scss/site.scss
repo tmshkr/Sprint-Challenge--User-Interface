@@ -24,6 +24,9 @@ header#top {
 
 img {
   max-width: 100%;
+  &.banner {
+    margin-top: 1rem;
+  }
 }
 
 p {

@@ -1,7 +1,30 @@
-section.top-content {
-  div.text-container {
-    margin-top: 1rem;
+section {
+  display: flex;
+  flex-wrap: wrap;
+  &.top-content {
+    div.text-container {
+      flex: 0 0 368px;
+      margin-top: 1rem;
+    }
   }
+  &.middle-content {
+    div.boxes {
+      display: flex;
+      flex-wrap: wrap;
+      .box {
+        flex: 0 0 100px;
+      }
+    }
+  }
+  &.bottom-content {
+    div.text-container {
+      flex: 0 1 256px;
+    }
+  }
+}
+
+.text-container {
+  margin: 1rem 0 0;
 }
 
 .teal {

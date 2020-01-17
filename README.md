@@ -32,26 +32,41 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1.  If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Semantic HTML is a kind of HTML that uses tags with embedded meaning, representing the purpose of the content enclosed by the tag. For example, `<article>` represents a self-contained composition in an HTML document. You should use semantic HTML in favor of non-semantic HTML when it is appropriate, if it adds justifiable meaning to the document.
+    
+2.  Name two big differences between  ``display: block;``  and  `display: inline;`.
 
-3. What are the 4 areas of the box model?
+`display: block;` sets an element to render as a block-level element, so that it takes up 100% of the available width inside the parent element and starts a new line.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+`display: inline;` sets and element to render as an inline element, so that it only takes up as much width as necessary and does not start a new line. Any width and height properties will have no effect.
 
-5. Explain why git is valuable to a team of developers.
+The main difference is that `display: block;` takes up 100% of the available width and starts a new line, whereas `display: inline;` does not. Also, the `width` and `height` can be set on block-level elements, whereas they cannot be set with inline elements.
+
+3.  What are the 4 areas of the box model?
+
+The four areas of the box model are the content, padding, border, and margin. The default`box-sizing: content-box` sets the element's `width` and `height` properties according to the content area, whereas `box-sizing: border-box` includes the padding and border in the element's `width` and `height` properties.
+    
+4.  While using flexbox, what axis does the following property work on:  `align-items: center`?
+
+`align-items: center` will align flex children along the center of the cross axis.
+    
+5.  Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because it facilitates collaboration by tracking changes to source files, which are committed to a central repository, so that changed can be compared and referred to at any time. It also backs up the files so that they can be easily recovered.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -69,30 +84,30 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x] Build the HTML and CSS to create the missing navigation and header.
+* [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [x] box1: `teal`
+* [x] box2: `gold`
+* [x] box3: `cadetblue`
+* [x] box4: `coral`
+* [x] box5: `crimson`
+* [x] box6: `forestgreen`
+* [x] box7: `darkorchid`
+* [x] box8: `hotpink`
+* [x] box9: `indigo`
+* [x] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [x] Copy and paste your home page navigation and header into the about page
+* [x] Update the header image with the about page image
+* [x] Link the `Home` navigation item back to the `index.html` page.
+* [x] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

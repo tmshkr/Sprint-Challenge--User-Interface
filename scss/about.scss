@@ -1,0 +1,37 @@
+div.about-page {
+  summary {
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+  article {
+    margin: 0 1rem 1rem;
+    padding: 1rem 0;
+  }
+
+  summary#top,
+  section.about > article {
+    border-bottom: 1px dashed black;
+  }
+
+  section.about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    article {
+      flex: 0 1 360px;
+      button {
+        background: none;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 0.77rem;
+        padding: 0.25rem 1rem;
+      }
+      h2 {
+        margin: 0.5rem 0;
+      }
+      p {
+        margin: 1rem 0;
+      }
+    }
+  }
+}

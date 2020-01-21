@@ -1,20 +1,26 @@
 section {
   display: flex;
   flex-wrap: wrap;
-}
-section.top-content div.text-container {
-  flex: 0 0 368px;
-  margin-top: 1rem;
-}
-section.middle-content div.boxes {
-  display: flex;
-  flex-wrap: wrap;
-}
-section.middle-content div.boxes .box {
-  flex: 0 0 100px;
-}
-section.bottom-content div.text-container {
-  flex: 0 1 256px;
+  &.top-content {
+    div.text-container {
+      flex: 0 0 368px;
+      margin-top: 1rem;
+    }
+  }
+  &.middle-content {
+    div.boxes {
+      display: flex;
+      flex-wrap: wrap;
+      .box {
+        flex: 0 0 100px;
+      }
+    }
+  }
+  &.bottom-content {
+    div.text-container {
+      flex: 0 1 256px;
+    }
+  }
 }
 
 .text-container {
@@ -24,41 +30,30 @@ section.bottom-content div.text-container {
 .teal {
   background-color: teal;
 }
-
 .gold {
   background-color: gold;
 }
-
 .cadetblue {
   background-color: cadetblue;
 }
-
 .coral {
   background-color: coral;
 }
-
 .crimson {
   background-color: crimson;
 }
-
 .forestgreen {
   background-color: forestgreen;
 }
-
 .darkorchid {
   background-color: darkorchid;
 }
-
 .hotpink {
   background-color: hotpink;
 }
-
 .indigo {
   background-color: indigo;
 }
-
 .dodgerblue {
   background-color: dodgerblue;
 }
-
-/*# sourceMappingURL=index.css.map */

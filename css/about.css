@@ -1,0 +1,35 @@
+div.about-page summary {
+  margin: 1rem 0;
+  padding: 1rem;
+}
+div.about-page article {
+  margin: 0 1rem 1rem;
+  padding: 1rem 0;
+}
+div.about-page summary#top,
+div.about-page section.about > article {
+  border-bottom: 1px dashed black;
+}
+div.about-page section.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div.about-page section.about article {
+  flex: 0 1 360px;
+}
+div.about-page section.about article button {
+  background: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 0.77rem;
+  padding: 0.25rem 1rem;
+}
+div.about-page section.about article h2 {
+  margin: 0.5rem 0;
+}
+div.about-page section.about article p {
+  margin: 1rem 0;
+}
+
+/*# sourceMappingURL=about.css.map */

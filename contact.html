@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sprint Challenge - Contact</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+
+  <body>
+    <header id="top">
+      <nav>
+        <a href="index.html">
+          <img src="img/lambda-black.png" alt="Lambda" />
+        </a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Products</a>
+        <a href="#">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <div class="container">
+      <section class="top-content">
+        <img class="banner" src="img/jumbo.jpg" alt="" />
+      </section>
+      <form class="contact-form" action="submit">
+        <label
+          >Name:
+          <input type="text" name="name" placeholder="Your Name" />
+        </label>
+        <label
+          >Email:
+          <input type="email" name="email" placeholder="you@example.com" />
+        </label>
+        <label
+          >Message:
+          <textarea name="message"></textarea>
+        </label>
+        <button id="submit">Submit</button>
+      </form>
+      <script>
+        document.getElementById("submit").onclick = handleSubmit;
+        function handleSubmit(e) {
+          e.preventDefault();
+          alert("This is just a demo form");
+        }
+      </script>
+
+      <footer>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="#">Products</a>
+          <a href="#">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </footer>
+    </div>
+    <!-- container -->
+  </body>
+</html>

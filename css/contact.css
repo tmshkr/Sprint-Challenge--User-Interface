@@ -1,0 +1,36 @@
+form.contact-form {
+  display: grid;
+  grid-template-columns: minmax(auto, 450px);
+  grid-template-rows: 1fr 1fr 3fr 1fr;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+form.contact-form * {
+  display: block;
+  width: 100%;
+}
+form.contact-form label {
+  font-size: 0.77rem;
+  padding: 1rem 0 0;
+}
+form.contact-form input {
+  font-size: 0.77rem;
+  margin: 0.25rem 0;
+  padding: 0.25rem 0.5rem;
+}
+form.contact-form textarea {
+  height: 100%;
+  font-size: 0.77rem;
+  padding: 0.5rem 0.5rem;
+  margin: 0.25rem 0;
+}
+form.contact-form button {
+  align-self: center;
+  background: none;
+  border: 1px solid black;
+  margin: 1rem auto;
+  max-width: 50%;
+  padding: 0.25rem 0.75rem;
+}
+
+/*# sourceMappingURL=contact.css.map */

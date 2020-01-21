@@ -1,0 +1,34 @@
+// * {
+//   outline: 1px solid cyan;
+// }
+
+header#top {
+  margin: 0 auto;
+  max-width: 800px;
+  //   padding: 1rem 0;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    a {
+      padding: 1rem;
+      color: black;
+      font-size: 0.7rem;
+      text-decoration: none;
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+  &.banner {
+    margin-top: 1rem;
+  }
+}
+
+p {
+  font-size: 0.77rem;
+}
